@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./portfolio.css";
 import IMG1 from "../../assets/proposal.jpeg";
 import IMG2 from "../../assets/proposal_rocks.jpeg";
@@ -84,13 +84,14 @@ const Portfolio = () => {
               </div>
               <h3>{title}</h3>
               <div className="portfolio__item-cta">
-                <a href={github} className="btn" target="_blank">
+                <a href={github} className="btn" target="_blank" rel="noreferrer">
                   Github
                 </a>
                 <a
                   href={demo}
                   className="btn btn-primary"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Live Demo
                 </a>

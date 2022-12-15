@@ -14,7 +14,6 @@ const App = () => {
     <>
     <Header />
     <Nav/>
-    {/* <Chatbot/> */}
     <About/>
     <Experience/>
     <Services/>
