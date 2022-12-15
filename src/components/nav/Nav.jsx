@@ -11,7 +11,8 @@ const Nav = () => {
 
   return (
     <nav>
-      <a href="#home" onClick={ () => setActiveNav('#')} className={ activeNav === '#' ? 'active' : ''}><HiHome/></a>
+      {/* eslint-disable-next-line */}
+      <a href="#" onClick={ () => setActiveNav('#')} className={ activeNav === '#' ? 'active' : ''}><HiHome/></a>
       <a href="#about" onClick={ () => setActiveNav('#about')} className={ activeNav === '#about' ? 'active' : ''}><FaUserAstronaut/></a>
       <a href="#experience" onClick={ () => setActiveNav('#experiences')} className={ activeNav === '#experiences' ? 'active' : ''}><BiBook/></a>
       <a href="#services" onClick={ () => setActiveNav('#services')} className={ activeNav === '#services' ? 'active' : ''}><RiServiceLine/></a>

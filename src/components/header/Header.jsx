@@ -7,7 +7,7 @@ import Chatbot from './Chatbot';
 
 const Header = () => {
   return (
-    <header id="#home">
+    <header>
       <div className="container header__container">
         <h5>Hello I'm</h5>
         <h1>Perri Love</h1>

@@ -6,12 +6,14 @@ import { BsDiscord, BsFacebook, BsInstagram } from 'react-icons/bs';
 const Footer = () => {
   return (
     <footer>
-      <a href="#home" className="footer__logo">
+      {/* eslint-disable-next-line */}
+      <a href="#" className="footer__logo">
         PERRI LOVE
       </a>
 
       <ul className="permalinks">
-        <li><a href="#home">Home</a></li>
+        {/* eslint-disable-next-line */}
+        <li><a href="#">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#services">Services</a></li>
