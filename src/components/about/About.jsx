@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/stx_cay.png";
+import ME from "../../assets/poppa_stx.jpeg";
 import { FaAward } from 'react-icons/fa';
 import { HiOutlineUsers } from 'react-icons/hi';
 import { VscFolderLibrary } from 'react-icons/vsc';
