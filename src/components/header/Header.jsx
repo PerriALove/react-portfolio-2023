@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css';
 import CTA from './CTA';
-import ME from '../../assets/poet_crop-nobg.png'
+import ME from '../../assets/morocco_dup_nobg.png';
 import Socials from './Socials';
 import Chatbot from './Chatbot';
 
